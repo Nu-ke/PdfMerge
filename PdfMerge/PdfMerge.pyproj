@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>PdfMerge</Name>
     <RootNamespace>PdfMerge</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>D:\junk\junk_pdf</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +25,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PdfMerge.py" />
+    <Compile Include="pdfMerge\Merge\pdfMerger.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pdfMerge\Merge\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pdfMerge\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pdfMerge\" />
+    <Folder Include="pdfMerge\Merge\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
