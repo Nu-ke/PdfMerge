@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PdfMerge", "PdfMerge\PdfMerge.pyproj", "{EC6576A2-01DE-4E87-AB1F-D37E876AEE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6576A2-01DE-4E87-AB1F-D37E876AEE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6576A2-01DE-4E87-AB1F-D37E876AEE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B51C60-8236-4F6C-837C-B57A920D6BB8}
+	EndGlobalSection
+EndGlobal
